@@ -31,7 +31,7 @@
   height: 3px;
   width: 30px;
   border-radius: 5px;
-  background: linear-gradient(135deg, #ff6a00, #fabd96);
+  background: linear-gradient(135deg, #078d0e, #fabd96);
 }
 .content form .user-details{
   display: flex;
@@ -62,7 +62,7 @@ form .input-box span.details{
 }
 .user-details .input-box input:focus,
 .user-details .input-box input:valid{
-  /*border-color: #ff6a00;*/
+  /*border-color: #078d0e;*/
 }
  form .gender-details .gender-title{
   font-size: 20px;
@@ -117,7 +117,7 @@ form .input-box span.details{
  }
  form .button input:hover{
   transform: scale(0.99);
-  background: #ff6a00;
+  background: #078d0e;
   }
  @media(max-width: 584px){
  .container{

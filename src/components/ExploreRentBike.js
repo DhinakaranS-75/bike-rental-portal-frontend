@@ -86,8 +86,8 @@ const ExploreRentBike = () => {
         </NavLink>
 
         <nav className="navbar">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/rentbike">Rent Bike</NavLink>
+          <NavLink to="/" className="navbar_details">Home</NavLink>
+          <NavLink to="/rentbike" className="navbar_details">Rent Bike</NavLink>
         </nav>
         <div id="login-btn">
           <Loginbutton />
@@ -97,7 +97,7 @@ const ExploreRentBike = () => {
       <div id="alertDiv">
         <p>Have you liked it?</p>
         <button className="btn" onClick={hideAlert}>
-          <NavLink to="/rentbike" className="nav-link">
+          <NavLink to="/rentbike" className="nav-link ">
             Rent Now
           </NavLink>
         </button>

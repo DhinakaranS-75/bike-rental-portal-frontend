@@ -44,7 +44,7 @@ const AdminSignin = () => {
           <span>Bike</span>Book{" "}
         </a>
 
-        <nav className="navbar">
+        <nav className="navbar ">
           <NavLink className="nav-link" to="/">
             Home
           </NavLink>

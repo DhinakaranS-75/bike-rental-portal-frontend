@@ -67,8 +67,8 @@ const Signup = () => {
         </NavLink>
 
         <nav className="navbar">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/exploreRentBikes">Bike Showcase</NavLink>
+          <NavLink to="/" className="navbar_details" >Home</NavLink>
+          <NavLink to="/exploreRentBikes" className="navbar_details" >Bike Showcase</NavLink>
         </nav>
 
         <div id="login-btn">

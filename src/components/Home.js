@@ -117,10 +117,10 @@ const Home = () => {
         </NavLink>
 
         <nav className="navbar">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/rentbike">Rent Bikes</NavLink>
-          <a href="#services">Testimonial</a>
-          <a href="#contact">Contact</a>
+          <NavLink to="/" className="navbar_details" >Home</NavLink>
+          <NavLink to="/rentbike" className="navbar_details" >Rent Bikes</NavLink>
+          <a href="#services" className="navbar_details" >Testimonial</a>
+          <a href="#contact" className="navbar_details" >Contact</a>
         </nav>
         <div id="login-btn">
           <Loginbutton />

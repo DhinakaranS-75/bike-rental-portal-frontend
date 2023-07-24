@@ -49,8 +49,8 @@ const Signin = () => {
         </NavLink>
 
         <nav className="navbar">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/exploreRentBikes">Bike Showcase</NavLink>
+          <NavLink to="/" className="navbar_details">Home</NavLink>
+          <NavLink to="/exploreRentBikes" className="navbar_details">Bike Showcase</NavLink>
         </nav>
 
         <div id="login-btn">
@@ -98,7 +98,7 @@ const Signin = () => {
             <h3>
               {" "}
               don't have an account{" "}
-              <NavLink style={{ color: "#ff6a00" }} to="/signup">
+              <NavLink style={{ color: "#078d0e" }} to="/signup">
                 create one
               </NavLink>
             </h3>

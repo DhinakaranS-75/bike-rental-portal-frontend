@@ -122,8 +122,8 @@ const Mycart = () => {
         </NavLink>
 
         <nav className="navbar">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/rentbike">Rent Bikes</NavLink>
+          <NavLink to="/" className="navbar_details">Home</NavLink>
+          <NavLink to="/rentbike" className="navbar_details">Rent Bikes</NavLink>
         </nav>
 
         <div id="login-btn">

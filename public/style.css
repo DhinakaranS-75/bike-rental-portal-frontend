@@ -4,7 +4,7 @@
     --yellow:#f9d806;
     --light-yellow:#ffee80;
     --green: #f6f6f6;
-    --dark-green: #ff6a00;
+    --dark-green: #078d0e;
     --black:#000000;
     --white: #282828;
     --whitegreen: rgb(246, 180, 127);
@@ -55,7 +55,7 @@ section{
     bottom:1rem; left:0;
     height: 100%;
     width: 100%;
-    background: #FF6A00FF;
+    background: #078d0eFF;
     z-index: -1;
     clip-path: polygon(0 90%, 100% 80%, 100% 100%, 0% 100%);
 }
@@ -103,7 +103,7 @@ section{
 
 .formDivRentbike{
     display : none;
-    background-color : #ff6a00;
+    background-color : #078d0e;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 7px;
     padding : 40px;
@@ -114,7 +114,7 @@ section{
 
 
 .reviewsdiv{
-    background-color : #ff6a00;
+    background-color : #078d0e;
     padding : 70px;
     font-size : 18px;
     text-align : center;
@@ -176,7 +176,7 @@ section{
 
 
 .btn:hover{
-    background:#ff6a00;
+    background:#078d0e;
     color: white;
 }
 
@@ -196,7 +196,7 @@ section{
 }
 
 .bikedbtn:hover{
-    background: #ff6a00;
+    background: #078d0e;
     color: white;
 }
 
@@ -230,7 +230,7 @@ section{
     top:0; left:0; right:0;
     padding:1rem 9%;
     z-index: 1000;
-    color: #ff6a00;
+    color: #078d0e;
     font-size: 25px;
     background-color: var(--green);
 }
@@ -252,8 +252,21 @@ section{
     font-weight: bold;
 }
 
+.header .navbar .navbar_details:hover{
+    color: #fff;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 10px;
+    /* text-decoration: underline #fff; */
+    margin-top: 2px;
+    transition: .5s;
+    text-transform: uppercase;
+    
+}
+
+
 .header .logo span{
-    color: #ff6a00;
+    color: #078d0e;
 }
 
 .header .navbar a{
@@ -529,7 +542,7 @@ section{
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
-    border: 2px solid #ff6a00);
+    border: 2px solid #078d0e);
 }
 
 .services .box-container .box h3{

@@ -220,11 +220,11 @@ const Rentabike = () => {
           <span>Bike</span>Book{" "}
         </NavLink>
         <nav className="navbar">
-          <NavLink className="nav-link" to="/">
+          <NavLink className="nav-link navbar_details" to="/">
             Home
           </NavLink>
 
-          <NavLink className="nav-link" to="/rentbikecart">
+          <NavLink className="nav-link navbar_details" to="/rentbikecart">
             Go To Cart
           </NavLink>
 

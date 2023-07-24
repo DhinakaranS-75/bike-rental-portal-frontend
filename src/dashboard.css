@@ -37,7 +37,7 @@
   cursor: pointer;
 }
 .sidebar .logo-details .logo_name{
-  color: #ff6a00;
+  color: #078d0e;
   font-size: 24px;
   font-weight: 500;
   cursor: pointer;
@@ -63,7 +63,7 @@
 
 .logoutbtnDash:hover{
   box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
-  background: #ff6a00;
+  background: #078d0e;
   color: white;
 }
 
@@ -86,7 +86,7 @@
 }
 .sidebar .nav-links li.active{
   background: white;
-  color: #ff6a00;
+  color: #078d0e;
 }
 
 
@@ -94,7 +94,7 @@
   box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
   border-radius: 7px;
   padding : 10px 10px;
-  background-color: #ff6a00;
+  background-color: #078d0e;
   color: white !important;
 }
 
@@ -105,14 +105,14 @@
   min-width: 60px;
   text-align: center;
   font-size: 18px;
-  /*color: #ff6a00;*/
+  /*color: #078d0e;*/
 }
 .sidebar .nav-links li i:hover{
   color: #ffff;
 }
 
 .dashlinks{
-  color: #ff6a00;
+  color: #078d0e;
   font-size: 15px;
 }
 
@@ -124,7 +124,7 @@
 
 
 .sidebar .nav-links li.allLinks_name{
-  color: #ff6a00;
+  color: #078d0e;
   font-size: 15px;
   font-weight: 400;
   white-space: nowrap;
@@ -163,7 +163,7 @@
   z-index: 100;
   padding: 0 20px;
   transition: all 0.5s ease;
-  color: #ff6a00;
+  color: #078d0e;
 }
 .sidebar.active ~ .home-section nav{
   left: 60px;
@@ -217,7 +217,7 @@ nav .search-box .bx-search{
   display: flex;
   align-items: center;
   background: white;
-  border: 2px solid #ff6a00;
+  border: 2px solid #078d0e;
   border-radius: 6px;
   height: 50px;
   min-width: 100px;
@@ -228,7 +228,7 @@ nav .search-box .bx-search{
 nav .profile-details .admin_name{
   font-size: 15px;
   font-weight: 500;
-  color: #ff6a00;
+  color: #078d0e;
   margin: 20px 20px 20px 20px;
   white-space: nowrap;
 }
@@ -347,7 +347,7 @@ nav .profile-details .admin_name{
   margin: -15px 0 0 6px;
 }
 .home-content .box .cart.two{
-   color: #ff6a00;
+   color: #078d0e;
    background: #C0F2D8;
  }
 .home-content .box .cart.three{
@@ -384,7 +384,7 @@ nav .profile-details .admin_name{
 .sales-boxes .box .title{
   font-size: 24px;
   font-weight: 500;
-  color: #ff6a00;
+  color: #078d0e;
   /* margin-bottom: 10px; */
 }
 .sales-boxes .sales-details li.topic{
